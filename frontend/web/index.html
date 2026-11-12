@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para Pinguii</title>
+<link rel="stylesheet" href="../recursos/css/style.css">
+<link rel="icon" type="image/png" href="../recursos/img/heart.png">
+</head>
+
+<body>
+
+<!-- =========================
+     FONDO PARTÍCULAS
+========================= -->
+<canvas id="particles"></canvas>
+
+<!-- Overlay suave -->
+<div class="overlay"></div>
+
+<!-- =========================
+     CONTENEDOR PRINCIPAL
+========================= -->
+<div class="main-container">
+
+    <div class="frame">
+
+        <!-- SOBRE -->
+        <div class="envelope" id="envelope">
+
+            <div class="flap"></div>
+
+            <!-- CARTA -->
+            <div class="letter" id="letter">
+
+                <h2>Pinguii 💙</h2>
+
+                <p>
+                    Hoy es San Valentín y tengo dos cosas claras:<br><br>
+
+                    La primera es que me encantas.<br>
+                    Y la segunda me encantaría verte hoy.<br><br>
+
+                    Quise hacer algo lindo y especial , disculpa la demora se me ocurrió esto,
+                    quiero que sepas que eres mi persona favorita en el mundo
+                    y mi hogar, siempre querré compartir contigo.<br><br>
+
+                    Así que, espero te guste y te saque una sonrisa:<br>
+
+                    Quiero invitarte hoy a comernos unas deliciosas fresas con crema,
+                    que están cerca de la casa.<br><br>
+
+                    Me encantaría pasar la tarde contigo.<br><br><br>
+
+                    ¿Me aceptas la invitación?
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- =========================
+     BOTONES FUERA DE LA CARTA
+========================= -->
+<div class="external-buttons" id="externalButtons">
+    <button id="yesBtn">Sí</button>
+    <button id="noBtn">No</button>
+</div>
+
+<!-- =========================
+     PANTALLA FINAL
+========================= -->
+<div class="accept-screen" id="acceptScreen">
+    <div class="accept-box">
+        <h2>Sabía que dirías que sí</h2><br>
+        <p>
+            Me encantas😌<br><br>
+            Respóndeme al WhatsApp.<br>
+        </p>
+
+        <div class="address">
+            📍 Dirección: Cerca de la casa, en Jonato.
+        </div>
+    </div>
+</div>
+
+<!-- =========================
+     AUDIO
+========================= -->
+
+<!-- Canción principal -->
+<audio id="songAudio" src="../recursos/sonido/A-Thousand-Years.mp3" preload="auto"></audio>
+
+<!-- Sonido al abrir carta -->
+<audio id="effectAudio" src="../recursos/sonido/amor.mp3" preload="auto"></audio>
+
+<script src="../recursos/js/script.js"></script>
+
+</body>
+</html>
